@@ -50,7 +50,7 @@ BSR: 8,200 ↑  日销: 11单  ACoS: 31.2% ⚠️
 
 **Obsidian 学习看板**
 
-![看板示意](https://via.placeholder.com/800x400?text=Obsidian+Dashboard)
+![Obsidian 学习看板](assets/dashboard.jpg)
 
 ---
 
