@@ -1,0 +1,13 @@
+# 个人学习记录（不上传）
+vault/knowledge/
+vault/simulation/
+vault/portfolio/
+
+# Obsidian 系统文件
+vault/.obsidian/
+
+# 已生成的 MCP 配置（含本地路径）
+.mcp.json
+
+# macOS
+.DS_Store

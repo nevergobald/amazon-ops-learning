@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "amazon-vault": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "{{VAULT_PATH}}"
+      ]
+    }
+  }
+}

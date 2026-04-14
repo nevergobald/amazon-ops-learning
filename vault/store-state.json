@@ -1,0 +1,46 @@
+{
+  "meta": {
+    "day": 1,
+    "start_date": "",
+    "phase": "launch",
+    "total_score": 0,
+    "decision_count": 0
+  },
+  "product": {
+    "name": "不锈钢厨房刀具套装5件",
+    "category": "Kitchen & Dining",
+    "price": 39.99,
+    "cost": 12.50,
+    "asin": "MOCK_B09KNIFE5"
+  },
+  "performance": {
+    "bsr": 12000,
+    "sessions": 45,
+    "units_sold": 3,
+    "conversion_rate": 6.7,
+    "reviews": 12,
+    "rating": 4.1
+  },
+  "inventory": {
+    "fba_stock": 180,
+    "inbound": 0,
+    "days_of_supply": 60,
+    "reorder_triggered": false
+  },
+  "advertising": {
+    "daily_budget": 20,
+    "spend": 8.5,
+    "ad_sales": 39.99,
+    "acos": 21.3,
+    "impressions": 3200,
+    "clicks": 22,
+    "ctr": 0.69
+  },
+  "account_health": {
+    "odr": 0.2,
+    "late_shipment_rate": 0,
+    "valid_tracking_rate": 100,
+    "status": "healthy"
+  },
+  "history": []
+}
