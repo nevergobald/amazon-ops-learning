@@ -97,38 +97,78 @@ Phase 4（Week 10-12）  综合实战
 
 ### 前置要求
 
-- [Claude Code](https://claude.ai/code) （需订阅）
-- [Obsidian](https://obsidian.md) （免费）
-- Node.js v18+（`brew install node`）
-
-### 安装
+**1. Claude Code**（AI 执行引擎，需要 Claude 订阅）
 
 ```bash
-# 克隆仓库
+# macOS 安装
+brew install claude-code
+# 或前往 https://claude.ai/code 下载
+```
+
+安装后在终端运行 `claude` 验证是否成功。
+
+**2. Obsidian**（知识库可视化，免费）
+
+前往 [obsidian.md](https://obsidian.md) 下载安装。
+
+**3. Node.js**
+
+```bash
+brew install node
+```
+
+---
+
+### 安装步骤
+
+**第一步：克隆仓库**
+
+```bash
 git clone https://github.com/nevergobald/amazon-ops-learning.git
 cd amazon-ops-learning
+```
 
-# 一键安装
+**第二步：一键安装**
+
+```bash
 bash install.sh
 ```
 
-安装完成后：
+脚本会自动完成：Skills 安装、MCP 配置、初始日期填写。
 
-1. 用 Obsidian 打开 `vault/` 目录
-2. 安装插件：**Dataview** + **Templater**（Settings → Community plugins）
-3. 在 Claude Code 中进入项目目录，输入 `/amazon-learn` 开始
+**第三步：用 Obsidian 打开 vault**
+
+打开 Obsidian → `Open folder as vault` → 选择项目里的 `vault/` 目录
+
+然后安装两个插件（Settings → Community plugins → Browse）：
+- 搜索 **Dataview** → Install → Enable
+- 搜索 **Templater** → Install → Enable
+
+**第四步：开始学习**
+
+在终端里进入项目目录，启动 Claude Code：
+
+```bash
+cd amazon-ops-learning
+claude
+```
+
+进入 Claude Code 后，直接输入：
+
+```
+/amazon-learn
+```
+
+---
 
 ### 每日使用
 
-```bash
-# 早上：学习
-/amazon-learn
+在终端运行 `claude` 启动后输入指令：
 
-# 晚上：模拟
-/amazon-simulate
-
-# 每周日：周报
-/amazon-report
+```
+早上：/amazon-learn      → 今日知识学习
+晚上：/amazon-simulate   → 虚拟店铺模拟
+每周日：/amazon-report   → 生成学习周报
 ```
 
 ---
